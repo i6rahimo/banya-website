@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="css/style.min.css?_v=20240927065720">
+  <link rel="stylesheet" href="css/style.min.css?_v=20240930061148">
   <title>Главная</title>
 </head>
 
@@ -14,13 +14,29 @@
     <div class="wrapper">
       <header class="header">
   <div class="header__container">
+    <div class="header__mb">
+      <a href="#" class="header__logo"><img src="../images/logo.svg" alt=""></a>
+      <div class="header__mb-wrapper">
+        <h2 class="header__mb-title">
+          Строительство бань В Свердловской области
+        </h2>
+        <div class="header__mb-social">
+          <a href="tel:+">
+            <img src="../images/header-mb-phone.svg" alt="">
+          </a>
+          <a href="">
+            <img src="../images/header-mb-whatsapp.svg" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
     <div class="header__up">
       <nav class="menu header__menu-up">
         <ul class="menu__list-up">
           <li class="menu__item">
             <a href="#" class="header__logo"><img src="../images/logo.svg" alt=""></a>
           </li>
-          <li class="menu__item">
+          <li class="menu__item-up">
             <a href="#" class="menu__link header__up-location">Строительство бань в Екатеринбурге</a>
           </li>
           <li class="menu__item-up">
@@ -97,10 +113,12 @@
           </div>
           
         </div>
-
-        
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev swiper-main-prev">
+          <img src="../images/build-swiper.svg" alt="">
+      </div>
+      <div class="swiper-button-next swiper-main-next">
+          <img src="../images/build-swiper.svg" alt="">
+      </div>
 
       </div>
 </section>
@@ -158,18 +176,18 @@
         <section class="choose">
     <div class="choose__container">
         <div class="choose__wrapper">
-            <div class="tabs" data-tabs="tabs-example">
+            <div class="tabs tabs__choose" data-tabs="tabs-example">
                 
                 <h2 class="title choose__main-title">
                     Выберите свою баню
                 </h2>
-                <div class="tabs__nav">
-                    <button class="tabs__trigger" type="button">Бани из бревна</button>
-                    <button class="tabs__trigger" type="button">Баня из бруса</button>
+                <div class="tabs__nav tabs__nav-choose">
+                    <button class="tabs__trigger choose__trigger" type="button">Баня из бруса</button>
+                    <button class="tabs__trigger choose__trigger" type="button">Бани из бревна</button>
                 </div>
             
-                <div class="tabs__content">
-                    <div class="tabs__panel">
+                <div class="tabs__content tabs__content-choose">
+                    <div class="tabs__panel choose__tabs-panel">
                         <div class="choose__text">
                             <h4 class="choose__title">
                                 Каркасная баня
@@ -194,7 +212,7 @@
                         </div>
                     </div>
 
-                    <div class="tabs__panel">
+                    <div class="tabs__panel choose__tabs-panel">
                         <div class="choose__text">
                             <h4 class="choose__title">
                                 Каркасная баняss
@@ -225,6 +243,191 @@
         </div>
     </div>
 </section>
+        <section class="build">
+    <div class="build__container">
+        <h2 class="title build__title">Бани которые мы уже построили</h2>
+        <div class="tabs" data-tabs="tabs-build">
+            <div class="tabs__nav build__nav">
+                <button class="tabs__trigger build__trigger" type="button">Бани из бревна</button>
+                <button class="tabs__trigger build__trigger" type="button">Бани из бруса</button>
+                <button class="tabs__trigger build__trigger" type="button">Бани-премиум</button>
+            </div>
+
+            <div class="tabs__content build__content">
+                <div class="tabs__panel">
+                    <div class="build">
+                        <div class="build__wrapper">
+                            <div class="build__slide">
+                                <div class="build__slide-up">
+                                    <picture><source srcset="../images/build-img.webp" type="image/webp"><img src="../images/build-img.png" alt=""></picture>
+                                    <h3 class="build__slide-name">Каркасная баня 2x4</h3>
+                                    <span class="build__slide-price">300 000 ₽</span>
+                                </div>
+                                <div class="build__slide-down">
+                                    <button class="build__slide-calc">Рассчитать <br> стоимость</button>
+                                    <button class="build__slide-invite">Пригласить <br> инженера</button>
+                                </div>
+                            </div>
+                            <div class="build__slide">
+                                <div class="build__slide-up">
+                                    <picture><source srcset="../images/build-img.webp" type="image/webp"><img src="../images/build-img.png" alt=""></picture>
+                                    <h3 class="build__slide-name">Каркасная баня 2x4</h3>
+                                    <span class="build__slide-price">300 000 ₽</span>
+                                </div>
+                                <div class="build__slide-down">
+                                    <button class="build__slide-calc">Рассчитать <br> стоимость</button>
+                                    <button class="build__slide-invite">Пригласить <br> инженера</button>
+                                </div>
+                            </div>
+                            <div class="build__slide">
+                                <div class="build__slide-up">
+                                    <picture><source srcset="../images/build-img.webp" type="image/webp"><img src="../images/build-img.png" alt=""></picture>
+                                    <h3 class="build__slide-name">Каркасная баня 2x4</h3>
+                                    <span class="build__slide-price">300 000 ₽</span>
+                                </div>
+                                <div class="build__slide-down">
+                                    <button class="build__slide-calc">Рассчитать <br> стоимость</button>
+                                    <button class="build__slide-invite">Пригласить <br> инженера</button>
+                                </div>
+                            </div>
+                            <div class="build__slide">
+                                <div class="build__slide-up">
+                                    <picture><source srcset="../images/build-img.webp" type="image/webp"><img src="../images/build-img.png" alt=""></picture>
+                                    <h3 class="build__slide-name">Каркасная баня 2x4</h3>
+                                    <span class="build__slide-price">300 000 ₽</span>
+                                </div>
+                                <div class="build__slide-down">
+                                    <button class="build__slide-calc">Рассчитать <br> стоимость</button>
+                                    <button class="build__slide-invite">Пригласить <br> инженера</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <img src="../images/build-swiper.svg" alt="">
+                        </div>
+                        <div class="swiper-button-next">
+                            <img src="../images/build-swiper.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="tabs__panel">
+                    <div class="build">
+                        <div class="build__wrapper">
+                            <div class="build__slide">
+                                <div class="build__slide-up">
+                                    <picture><source srcset="../images/build-img.webp" type="image/webp"><img src="../images/build-img.png" alt=""></picture>
+                                    <h3 class="build__slide-name">Каркасная баня 2x4</h3>
+                                    <span class="build__slide-price">300 000 ₽</span>
+                                </div>
+                                <div class="build__slide-down">
+                                    <button class="build__slide-calc">Рассчитать <br> стоимость</button>
+                                    <button class="build__slide-invite">Пригласить <br> инженера</button>
+                                </div>
+                            </div>
+                            <div class="build__slide">
+                                <div class="build__slide-up">
+                                    <picture><source srcset="../images/build-img.webp" type="image/webp"><img src="../images/build-img.png" alt=""></picture>
+                                    <h3 class="build__slide-name">Каркасная баня 2x4</h3>
+                                    <span class="build__slide-price">300 000 ₽</span>
+                                </div>
+                                <div class="build__slide-down">
+                                    <button class="build__slide-calc">Рассчитать <br> стоимость</button>
+                                    <button class="build__slide-invite">Пригласить <br> инженера</button>
+                                </div>
+                            </div>
+                            <div class="build__slide">
+                                <div class="build__slide-up">
+                                    <picture><source srcset="../images/build-img.webp" type="image/webp"><img src="../images/build-img.png" alt=""></picture>
+                                    <h3 class="build__slide-name">Каркасная баня 2x4</h3>
+                                    <span class="build__slide-price">300 000 ₽</span>
+                                </div>
+                                <div class="build__slide-down">
+                                    <button class="build__slide-calc">Рассчитать <br> стоимость</button>
+                                    <button class="build__slide-invite">Пригласить <br> инженера</button>
+                                </div>
+                            </div>
+                            <div class="build__slide">
+                                <div class="build__slide-up">
+                                    <picture><source srcset="../images/build-img.webp" type="image/webp"><img src="../images/build-img.png" alt=""></picture>
+                                    <h3 class="build__slide-name">Каркасная баня 2x4</h3>
+                                    <span class="build__slide-price">300 000 ₽</span>
+                                </div>
+                                <div class="build__slide-down">
+                                    <button class="build__slide-calc">Рассчитать <br> стоимость</button>
+                                    <button class="build__slide-invite">Пригласить <br> инженера</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <img src="../images/build-swiper.svg" alt="">
+                        </div>
+                        <div class="swiper-button-next">
+                            <img src="../images/build-swiper.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="tabs__panel">
+                    <div class="build">
+                        <div class="build__wrapper">
+                            <div class="build__slide">
+                                <div class="build__slide-up">
+                                    <picture><source srcset="../images/build-img.webp" type="image/webp"><img src="../images/build-img.png" alt=""></picture>
+                                    <h3 class="build__slide-name">Каркасная баня 2x4</h3>
+                                    <span class="build__slide-price">300 000 ₽</span>
+                                </div>
+                                <div class="build__slide-down">
+                                    <button class="build__slide-calc">Рассчитать <br> стоимость</button>
+                                    <button class="build__slide-invite">Пригласить <br> инженера</button>
+                                </div>
+                            </div>
+                            <div class="build__slide">
+                                <div class="build__slide-up">
+                                    <picture><source srcset="../images/build-img.webp" type="image/webp"><img src="../images/build-img.png" alt=""></picture>
+                                    <h3 class="build__slide-name">Каркасная баня 2x4</h3>
+                                    <span class="build__slide-price">300 000 ₽</span>
+                                </div>
+                                <div class="build__slide-down">
+                                    <button class="build__slide-calc">Рассчитать <br> стоимость</button>
+                                    <button class="build__slide-invite">Пригласить <br> инженера</button>
+                                </div>
+                            </div>
+                            <div class="build__slide">
+                                <div class="build__slide-up">
+                                    <picture><source srcset="../images/build-img.webp" type="image/webp"><img src="../images/build-img.png" alt=""></picture>
+                                    <h3 class="build__slide-name">Каркасная баня 2x4</h3>
+                                    <span class="build__slide-price">300 000 ₽</span>
+                                </div>
+                                <div class="build__slide-down">
+                                    <button class="build__slide-calc">Рассчитать <br> стоимость</button>
+                                    <button class="build__slide-invite">Пригласить <br> инженера</button>
+                                </div>
+                            </div>
+                            <div class="build__slide">
+                                <div class="build__slide-up">
+                                    <picture><source srcset="../images/build-img.webp" type="image/webp"><img src="../images/build-img.png" alt=""></picture>
+                                    <h3 class="build__slide-name">Каркасная баня 2x4</h3>
+                                    <span class="build__slide-price">300 000 ₽</span>
+                                </div>
+                                <div class="build__slide-down">
+                                    <button class="build__slide-calc">Рассчитать <br> стоимость</button>
+                                    <button class="build__slide-invite">Пригласить <br> инженера</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <img src="../images/build-swiper.svg" alt="">
+                        </div>
+                        <div class="swiper-button-next">
+                            <img src="../images/build-swiper.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
         <section class="stock">
     <div class="stock__container">
         <h3 class="title stock__title">
@@ -239,7 +442,11 @@
                     <p class="stock__subtitle">
                         Закажите каркасную баню и получите установку в подарок. В течении 12 часов с вами свяжтся
                     </p>
-                    <a href="#" class="stock__btn">Подробнее</a>
+                    <a href="#" class="stock__btn">Подробнее
+
+                        <img class="stock__item-star" src="../images/stock-img.svg" alt="">
+                    </a>
+                    
                 </div>
                 <div class="stock__img">
                     <img src="../images/stock-img.svg" alt="">
@@ -253,10 +460,13 @@
                     <p class="stock__subtitle">
                         Закажите каркасную баню и получите установку в подарок. В течении 12 часов с вами свяжтся
                     </p>
-                    <a href="#" class="stock__btn">Подробнее</a>
+                    <a href="#" class="stock__btn">Подробнее 
+                    <img src="../images/stock-img.svg" alt="">
+
+                    </a>
                 </div>
                 <div class="stock__img">
-                    <img src="../images/stock-img.svg" alt="">
+                    <img class="stock__item-star" src="../images/stock-img.svg" alt="">
                 </div>
             </div>
         </div>
@@ -274,11 +484,463 @@
                     Бесплатная установка
                 </h4>
                 <p class="stock__subtitle">
-                    Закажите каркасную баню или баню-бочку и получите установку в подарок                </p>
+                    Закажите каркасную баню или баню-бочку и получите <span> установку в подарок </span></p>
                 <a href="#" class="stock__btn">Заказать баню →</a>
             </div>
             <div class="stock__img">
                 <picture><source srcset="../images/stock-down.webp" type="image/webp"><img src="../images/stock-down.png" alt=""></picture>
+            </div>
+        </div>
+    </div>
+</section>
+        
+<div class="quiz-wrapper">
+    <div class="quiz-inner">
+        <button class="close-quiz">
+            <img src="<?php echo get_template_directory_uri() ?>/img/close-quiz.svg" alt="">
+        </button>
+        <form class="quiz" method="POST">
+            qweqwe
+        </form>
+
+    </div>
+    <div class="quiz-close-wrapper"></div>
+</div>
+
+        <section class="comparison">
+    <div class="comparison__container">
+        <h2 class="title comparison__title">
+            Сравнение комплектаций
+        </h2>
+        <div class="tabs comparison__tabs" data-tabs="tabs-comparison">
+            <div class="tabs__nav comparison__nav">
+                <button class="tabs__trigger" type="button">Бани из бревна</button>
+                <button class="tabs__trigger" type="button">Баня из бруса</button>
+            </div>
+        
+            <div class="tabs__content comparison__content">
+                <div class="tabs__panel">
+                    <div class="comparison__items">
+                        <div class="comparison__item">
+                            <p class="comparison__item-header left-up-border">
+                                Комплектация
+                            </p>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc left-down-border">
+                                Утепление
+                            </span>
+                        </div>
+
+                        <div class="comparison__item">
+                            <p class="comparison__item-header">
+                                Комплектация
+                            </p>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                        </div>
+
+                        <div class="comparison__item">
+                            <p class="comparison__item-header">
+                                Комплектация
+                            </p>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                        </div>
+
+                        <div class="comparison__item">
+                            <p class="comparison__item-header right-up-border">
+                                Комплектация
+                            </p>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc right-down-border">
+                                Утепление
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="tabs__panel">
+                    <div class="comparison__items">
+                        <div class="comparison__item">
+                            <p class="comparison__item-header left-up-border">
+                                Комплектация
+                            </p>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc left-down-border">
+                                Утепление
+                            </span>
+                        </div>
+
+                        <div class="comparison__item">
+                            <p class="comparison__item-header">
+                                Комплектация
+                            </p>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                        </div>
+
+                        <div class="comparison__item">
+                            <p class="comparison__item-header">
+                                Комплектация
+                            </p>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                        </div>
+
+                        <div class="comparison__item">
+                            <p class="comparison__item-header right-up-border">
+                                Комплектация
+                            </p>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc">
+                                Утепление
+                            </span>
+                            <span class="comparison__item-desc right-down-border">
+                                Утепление
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="comparison-btn">
+                Получить полную <br> <span>спецификацию на проект </span>
+            </button>
+        </div>
+        
+    </div>
+</section>
+
+<section class="comparison__down">
+    <div class="comparison__down__container">
+        <div class="comparison__down-wrapper">
+            <p class="comparison__down-text">Мы не продавцы! Мы строители бань. При желании материалы Вы можете покупать сами или мы поможем Вам их купить по нашим скидкам</p>
+        </div>
+    </div>
+</section>
+        <section class="sliders">
+    <div class="sliders__container">
+        <h2 class="title sliders__title">
+            Бани, которые строим прямо сейчас
+        </h2>
+        <div class="sliders">
+            <div class="sliders__wrapper">
+                <div class="sliders__slide">
+                    <div class="sliders__slide-wrapper">
+                        <picture><source srcset="../images/sliders-bg.webp" type="image/webp"><img src="../images/sliders-bg.png" alt=""></picture>
+                        <a class="sliders__link" href="Рассчитать стоимость">Рассчитать <br>  стоимость</a>
+                    </div>
+                </div>
+                <div class="sliders__slide">
+                    <div class="sliders__slide-wrapper">
+                        <picture><source srcset="../images/sliders-bg.webp" type="image/webp"><img src="../images/sliders-bg.png" alt=""></picture>
+                        <a class="sliders__link" href="Рассчитать стоимость">Рассчитать <br> стоимость</a>
+                    </div>
+                </div>
+                <div class="sliders__slide">
+                    <div class="sliders__slide-wrapper">
+                        <picture><source srcset="../images/sliders-bg.webp" type="image/webp"><img src="../images/sliders-bg.png" alt=""></picture>
+                        <a class="sliders__link" href="Рассчитать стоимость">Рассчитать <br> стоимость</a>
+                    </div>
+                </div>
+                <div class="sliders__slide">
+                    <div class="sliders__slide-wrapper">
+                        <picture><source srcset="../images/sliders-bg.webp" type="image/webp"><img src="../images/sliders-bg.png" alt=""></picture>
+                        <a class="sliders__link" href="Рассчитать стоимость">Рассчитать <br> стоимость</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-prev sliders-btn-prev">
+                <img src="../images/build-swiper.svg" alt="">
+            </div>
+            <div class="swiper-button-next sliders-btn-next">
+                <img src="../images/build-swiper.svg" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="sliders__client">
+    <div class="slider__client__container">
+
+        <h2 class="title sliders__client-title">
+            Более 200 довольных клиентов По достоинству оценивают наши бани
+        </h2>
+        <div class="sliders">
+            <div class="sliders__wrapper">
+                <div class="sliders__slide">
+                    <div class="sliders__slide-wrapper">
+                        <picture><source srcset="../images/sliders-bg.webp" type="image/webp"><img src="../images/sliders-bg.png" alt=""></picture>
+                        <a class="sliders__link" href="Рассчитать стоимость">Рассчитать <br>  стоимость</a>
+                    </div>
+                </div>
+                <div class="sliders__slide">
+                    <div class="sliders__slide-wrapper">
+                        <picture><source srcset="../images/sliders-bg.webp" type="image/webp"><img src="../images/sliders-bg.png" alt=""></picture>
+                        <a class="sliders__link" href="Рассчитать стоимость">Рассчитать <br> стоимость</a>
+                    </div>
+                </div>
+                <div class="sliders__slide">
+                    <div class="sliders__slide-wrapper">
+                        <picture><source srcset="../images/sliders-bg.webp" type="image/webp"><img src="../images/sliders-bg.png" alt=""></picture>
+                        <a class="sliders__link" href="Рассчитать стоимость">Рассчитать <br> стоимость</a>
+                    </div>
+                </div>
+                <div class="sliders__slide">
+                    <div class="sliders__slide-wrapper">
+                        <picture><source srcset="../images/sliders-bg.webp" type="image/webp"><img src="../images/sliders-bg.png" alt=""></picture>
+                        <a class="sliders__link" href="Рассчитать стоимость">Рассчитать <br> стоимость</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-prev sliders-btn-prev">
+                <img src="../images/build-swiper.svg" alt="">
+            </div>
+            <div class="swiper-button-next sliders-btn-next">
+                <img src="../images/build-swiper.svg" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="term">
+    <div class="term__container">
+        <h2 class="title term__title">
+            От замера до установки — 15-60 дней
+        </h2>
+        <div class="term__items">
+            <div class="term__item">
+                <span class="term__item-number">
+                    01
+                </span>
+                <p class="term__item-type">
+                    Заявка
+                </p>
+                <a class="term__item-phone" href="tel:+">Вы оставляете заявку на нашем сайте или по телефону +79999999999</a>
+            </div>
+
+            <div class="term__item">
+                <span class="term__item-number">
+                    02
+                </span>
+                <p class="term__item-type">
+                    Консультация
+                </p>
+                <a class="term__item-phone" href="tel:+">Вы оставляете заявку на нашем сайте или по телефону +79999999999</a>
+            </div>
+            <div class="term__item">
+                <span class="term__item-number">
+                    03
+                </span>
+                <p class="term__item-type">
+                    Договор
+                </p>
+                <a class="term__item-phone" href="tel:+">Вы оставляете заявку на нашем сайте или по телефону +79999999999</a>
+            </div>
+
+            <div class="term__item">
+                <span class="term__item-number">
+                    04
+                </span>
+                <p class="term__item-type">
+                    Изготовление
+                </p>
+                <a class="term__item-phone" href="tel:+">Вы оставляете заявку на нашем сайте или по телефону +79999999999</a>
+            </div>
+
+            <div class="term__item">
+                <span class="term__item-number">
+                    05
+                </span>
+                <p class="term__item-type">
+                    Установка
+                </p>
+                <a class="term__item-phone" href="tel:+">Вы оставляете заявку на нашем сайте или по телефону +79999999999</a>
+            </div>
+
+            <div class="term__item">
+                <span class="term__item-number">
+                    06
+                </span>
+                <p class="term__item-type">
+                    Наслаждение
+                </p>
+                <a class="term__item-phone" href="tel:+">Вы оставляете заявку на нашем сайте или по телефону +79999999999</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="create">
+    <div class="create__container">
+        <h2 class="title create__title">
+            Изготавливаем бани на собственном <br> производстве более 10 лет
+        </h2>
+        <div class="create__wrapper">
+            <div class="create__left">
+                <h4 class="create__left-title">
+                    Работаем на совесть и относимся по-человечески и внимательно к клиентам
+                </h4>
+                <p class="create__left-text">
+                    Мы современная строительная компания, которая заимается строительством каркасных бань
+                </p>
+                <p class="create__left-text">
+                    Первую баню построили еще в далеком 2011 году и с того момента началось развитие нашей компании. Все эти годы мы росли, были взлеты и падения. Мы накапливали бесценный опыт и знания, улучшали технологии строительства, сервис для клиентов. И стали настоящими специалистами в сфере строительства бань.
+                </p>
+                <div class="create__left-items">
+                    <div class="create__left-item">
+                        <img src="../images/square.svg" alt="">
+                        <p>Поможем подобрать и изготовить баню, которая будет удовлетворять всем вашим запросам по красоте, качеству и пространству</p>
+                    </div>
+                    <div class="create__left-item">
+                        <img src="../images/square.svg" alt="">
+                        <p>Мы строим бани по собственной технологии производства. Все работы ведутся в соответствии с нормами и правилами</p>
+                    </div>
+                </div>
+            </div>
+            <div class="create__img">
+                <picture><source srcset="../images/create.webp" type="image/webp"><img src="../images/create.png" alt=""></picture>
             </div>
         </div>
     </div>
@@ -462,6 +1124,7 @@
         <div class="footer__maps">
           <picture><source srcset="../images/footer-map.webp" type="image/webp"><img src="../images/footer-map.png" alt=""></picture>
         </div>
+        <img class="footer__logo-maps" src="../images/logo.svg" alt="">
       </div>
     </div>
   </div>
@@ -473,7 +1136,7 @@
     <a href="#" class="footer__down-item">Политика конфиденциальности</a>
     <a href="#" class="footer__down-item">Условия обработки данных</a>
     <a href="#" class="footer__down-item">Сайт разработан:
-      <img style="opacity: 1;" class="footer__down-icon" src="../images/footer-icon.svg" alt="">
+      <img class="footer__down-icon" src="../images/footer-icon.svg" alt="">
     </a>
   </div>
 </div>
@@ -490,7 +1153,7 @@
     </div>
 </div>
 
-    <script src="js/app.min.js?_v=20240927065720"></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js?_v=20240927065720"></script>
+    <script src="js/app.min.js?_v=20240930061148"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js?_v=20240930061148"></script>
   </body>
 </html>
